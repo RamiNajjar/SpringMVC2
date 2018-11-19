@@ -23,7 +23,7 @@ public class WebConfig implements WebMvcConfigurer {
         resolver.setPrefix("/WEB-INF/views/");
         resolver.setSuffix(".jsp");
         resolver.setExposeContextBeansAsAttributes(true);
-        System.err.print("x");
+     //   System.err.print("x");
         return resolver;
     }
 
